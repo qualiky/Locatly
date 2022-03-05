@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12214CFF27CF29E7007DE592 /* RoughData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12214CFE27CF29E7007DE592 /* RoughData.swift */; };
+		12214D0227CF2A95007DE592 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12214D0027CF2A95007DE592 /* User+CoreDataClass.swift */; };
+		12214D0327CF2A95007DE592 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12214D0127CF2A95007DE592 /* User+CoreDataProperties.swift */; };
+		12231B9927D1C2BD00C5C7D0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12231B9827D1C2BD00C5C7D0 /* TableViewCell.swift */; };
+		1237830027A8E75C00C352A1 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123782FF27A8E75C00C352A1 /* UserInfoViewController.swift */; };
+		1237830427A8E79500C352A1 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237830327A8E79500C352A1 /* DiscoverViewController.swift */; };
+		12430E3A27D1AB1900102FD1 /* IntermediateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12430E3927D1AB1900102FD1 /* IntermediateUser.swift */; };
+		12A042D027AA317900E99DE2 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A042CF27AA317900E99DE2 /* UserForm.swift */; };
 		12CE085027A787B8002D5D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE084F27A787B8002D5D33 /* AppDelegate.swift */; };
 		12CE085227A787B8002D5D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE085127A787B8002D5D33 /* SceneDelegate.swift */; };
-		12CE085427A787B8002D5D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE085327A787B8002D5D33 /* ViewController.swift */; };
 		12CE085727A787B8002D5D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE085527A787B8002D5D33 /* Main.storyboard */; };
 		12CE085A27A787B9002D5D33 /* Locatly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12CE085827A787B9002D5D33 /* Locatly.xcdatamodeld */; };
 		12CE085C27A787BA002D5D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CE085B27A787BA002D5D33 /* Assets.xcassets */; };
 		12CE085F27A787BA002D5D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CE085D27A787BA002D5D33 /* LaunchScreen.storyboard */; };
+		12D60A7C27AAED8D000C6D95 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D60A7B27AAED8D000C6D95 /* Constants.swift */; };
+		12EAFCF927D318A700EE3715 /* MailSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAFCF827D318A700EE3715 /* MailSender.swift */; };
+		13AA1A9F6609F291991DC6F0 /* Pods_Locatly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17417624C232A221DD043B16 /* Pods_Locatly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12214CFE27CF29E7007DE592 /* RoughData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughData.swift; sourceTree = "<group>"; };
+		12214D0027CF2A95007DE592 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "Locatly/Model/User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		12214D0127CF2A95007DE592 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "Locatly/Model/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		12231B9827D1C2BD00C5C7D0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		123782FF27A8E75C00C352A1 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		1237830327A8E79500C352A1 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		12430E3927D1AB1900102FD1 /* IntermediateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateUser.swift; sourceTree = "<group>"; };
+		12A042CF27AA317900E99DE2 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
 		12CE084C27A787B8002D5D33 /* Locatly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locatly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CE084F27A787B8002D5D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12CE085127A787B8002D5D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12CE085327A787B8002D5D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12CE085627A787B8002D5D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12CE085927A787B9002D5D33 /* Locatly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locatly.xcdatamodel; sourceTree = "<group>"; };
 		12CE085B27A787BA002D5D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CE085E27A787BA002D5D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CE086027A787BA002D5D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D60A7B27AAED8D000C6D95 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12EAFCF827D318A700EE3715 /* MailSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSender.swift; sourceTree = "<group>"; };
+		17417624C232A221DD043B16 /* Pods_Locatly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Locatly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5845CEA68B8802B0F6480594 /* Pods-Locatly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locatly.release.xcconfig"; path = "Target Support Files/Pods-Locatly/Pods-Locatly.release.xcconfig"; sourceTree = "<group>"; };
+		9B285666CAB53A83EAB4116C /* Pods-Locatly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locatly.debug.xcconfig"; path = "Target Support Files/Pods-Locatly/Pods-Locatly.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AA1A9F6609F291991DC6F0 /* Pods_Locatly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123782FE27A8E73600C352A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				123782FF27A8E75C00C352A1 /* UserInfoViewController.swift */,
+				1237830327A8E79500C352A1 /* DiscoverViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		12A042CE27AA316300E99DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12A042CF27AA317900E99DE2 /* UserForm.swift */,
+				12231B9827D1C2BD00C5C7D0 /* TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		12CE084327A787B8002D5D33 = {
 			isa = PBXGroup;
 			children = (
+				12214D0027CF2A95007DE592 /* User+CoreDataClass.swift */,
+				12214D0127CF2A95007DE592 /* User+CoreDataProperties.swift */,
 				12CE084E27A787B8002D5D33 /* Locatly */,
 				12CE084D27A787B8002D5D33 /* Products */,
+				2BEA12B8DBDF7C6857C8A02D /* Pods */,
+				C0A6600277C758A834BB9CEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +103,11 @@
 		12CE084E27A787B8002D5D33 /* Locatly */ = {
 			isa = PBXGroup;
 			children = (
+				12D60A7A27AAED7E000C6D95 /* Model */,
+				12A042CE27AA316300E99DE2 /* Views */,
 				12CE084F27A787B8002D5D33 /* AppDelegate.swift */,
 				12CE085127A787B8002D5D33 /* SceneDelegate.swift */,
-				12CE085327A787B8002D5D33 /* ViewController.swift */,
+				123782FE27A8E73600C352A1 /* Controllers */,
 				12CE085527A787B8002D5D33 /* Main.storyboard */,
 				12CE085B27A787BA002D5D33 /* Assets.xcassets */,
 				12CE085D27A787BA002D5D33 /* LaunchScreen.storyboard */,
@@ -70,6 +117,34 @@
 			path = Locatly;
 			sourceTree = "<group>";
 		};
+		12D60A7A27AAED7E000C6D95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12D60A7B27AAED8D000C6D95 /* Constants.swift */,
+				12214CFE27CF29E7007DE592 /* RoughData.swift */,
+				12430E3927D1AB1900102FD1 /* IntermediateUser.swift */,
+				12EAFCF827D318A700EE3715 /* MailSender.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BEA12B8DBDF7C6857C8A02D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B285666CAB53A83EAB4116C /* Pods-Locatly.debug.xcconfig */,
+				5845CEA68B8802B0F6480594 /* Pods-Locatly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0A6600277C758A834BB9CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17417624C232A221DD043B16 /* Pods_Locatly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12CE086327A787BA002D5D33 /* Build configuration list for PBXNativeTarget "Locatly" */;
 			buildPhases = (
+				0B223E5668667099A02ABDB5 /* [CP] Check Pods Manifest.lock */,
 				12CE084827A787B8002D5D33 /* Sources */,
 				12CE084927A787B8002D5D33 /* Frameworks */,
 				12CE084A27A787B8002D5D33 /* Resources */,
+				6692307F87F2EA06B4F5561E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +213,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B223E5668667099A02ABDB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Locatly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6692307F87F2EA06B4F5561E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Locatly/Pods-Locatly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Locatly/Pods-Locatly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Locatly/Pods-Locatly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12CE084827A787B8002D5D33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				12CE085A27A787B9002D5D33 /* Locatly.xcdatamodeld in Sources */,
-				12CE085427A787B8002D5D33 /* ViewController.swift in Sources */,
+				1237830427A8E79500C352A1 /* DiscoverViewController.swift in Sources */,
 				12CE085027A787B8002D5D33 /* AppDelegate.swift in Sources */,
+				1237830027A8E75C00C352A1 /* UserInfoViewController.swift in Sources */,
+				12D60A7C27AAED8D000C6D95 /* Constants.swift in Sources */,
+				12214D0227CF2A95007DE592 /* User+CoreDataClass.swift in Sources */,
+				12A042D027AA317900E99DE2 /* UserForm.swift in Sources */,
 				12CE085227A787B8002D5D33 /* SceneDelegate.swift in Sources */,
+				12214D0327CF2A95007DE592 /* User+CoreDataProperties.swift in Sources */,
+				12231B9927D1C2BD00C5C7D0 /* TableViewCell.swift in Sources */,
+				12214CFF27CF29E7007DE592 /* RoughData.swift in Sources */,
+				12430E3A27D1AB1900102FD1 /* IntermediateUser.swift in Sources */,
+				12EAFCF927D318A700EE3715 /* MailSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +416,7 @@
 		};
 		12CE086427A787BA002D5D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B285666CAB53A83EAB4116C /* Pods-Locatly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +430,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +446,7 @@
 		};
 		12CE086527A787BA002D5D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5845CEA68B8802B0F6480594 /* Pods-Locatly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +460,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
