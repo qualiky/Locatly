@@ -16,7 +16,7 @@ class MailSender : NSObject, SKPSMTPMessageDelegate{
             let message = SKPSMTPMessage()
             message.relayHost = "smtp.gmail.com"
             message.login = "sandeep.infinitydigital@gmail.com"
-            message.pass = ""
+            message.pass = "KJAdu8ibsqlw0>amod_/[a3pp"
             message.requiresAuth = true
             message.wantsSecure = true
             message.relayPorts = [587]
